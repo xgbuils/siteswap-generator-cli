@@ -1,0 +1,31 @@
+{
+  "name": "siteswap-generator-cli",
+  "version": "0.1.0",
+  "description": "Command line interface that generates juggling siteswap patterns",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xgbuils/siteswap-generator-cli.git"
+  },
+  "keywords": [
+    "juggling",
+    "siteswap",
+    "generator",
+    "cli"
+  ],
+  "author": "Xavier Garcia Buils",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "siteswap": "index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/xgbuils/siteswap-generator-cli/issues"
+  },
+  "homepage": "https://github.com/xgbuils/siteswap-generator-cli#readme",
+  "dependencies": {
+    "siteswap-generator": "^0.2.0"
+  }
+}
